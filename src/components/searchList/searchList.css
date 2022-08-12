@@ -1,0 +1,14 @@
+.movieApp__container {
+    background-color: #373b69;
+    min-height: 90vh;
+    padding-top: 24px;
+}
+
+.movieApp__contents {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    margin: auto;
+    gap: 24px;
+    justify-content: center;
+}

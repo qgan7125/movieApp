@@ -1,0 +1,8 @@
+.favorite__contents {
+    background-color: #373b69;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    gap: 24px;
+    min-height: 95vh;
+}

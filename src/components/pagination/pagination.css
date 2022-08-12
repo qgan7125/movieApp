@@ -1,0 +1,28 @@
+.pagination__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 10px 0;
+    gap: 5px;
+    background-color: #373b69;
+}
+
+.pagination__container button {
+    background-color: #3c4bf1;
+    color: white;
+    font-size: 1.5em;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+}
+
+.pagination__container button:active {
+    transform: scale(0.95);
+}
+
+.pagination__container button:disabled {
+    background: #ccc;
+    opacity: 0.6;
+}
